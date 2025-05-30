@@ -1,9 +1,9 @@
 pipeline {
-agent {
-    docker {
-      image 'node:23'
+agent any
+
+    tools {
+        nodejs 'Node 18'
     }
-  }
 
   stages {
     stage('Clone Repo') {
