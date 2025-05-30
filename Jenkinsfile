@@ -3,7 +3,7 @@ agent any
 
     tools {
         nodejs 'Node 18'
-        docker 'docker'
+        dockerTool 'docker'
     }
 
   stages {
